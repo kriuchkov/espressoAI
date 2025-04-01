@@ -1,0 +1,30 @@
+export const translations = {
+  en: {
+    welcome: "Welcome to the News Bot! Send me a URL to subscribe to news.",
+    subscribed: "You have successfully subscribed to {url}. You will receive news every {interval} minutes.",
+    unsubscribed: "You have successfully unsubscribed from {url}.",
+    intervalSet: "Notification interval has been set to {interval} minutes.",
+    subscriptionList: "Your subscriptions:",
+    noSubscriptions: "You have no subscriptions yet.",
+    invalidUrl: "Please provide a valid URL.",
+    invalidInterval: "Please provide a valid interval in minutes.",
+    help: "Available commands:\n/subscribe <url> - Subscribe to a news source\n/unsubscribe <url> - Unsubscribe from a source\n/interval <minutes> - Set notification interval\n/list - List your subscriptions\n/news <url> - Get latest news from a source",
+    updateNews: "News Update",
+    news: "News",
+    readMore: "Read more",
+  },
+  ru: {
+    welcome: "Добро пожаловать в Новостной Бот! Отправьте мне URL для подписки на новости.",
+    subscribed: "Вы успешно подписались на {url}. Вы будете получать новости каждые {interval} минут.",
+    unsubscribed: "Вы успешно отписались от {url}.",
+    intervalSet: "Интервал уведомлений установлен на {interval} минут.",
+    subscriptionList: "Ваши подписки:",
+    noSubscriptions: "У вас пока нет подписок.",
+    invalidUrl: "Пожалуйста, предоставьте действительный URL.",
+    invalidInterval: "Пожалуйста, предоставьте корректный интервал в минутах.",
+    help: "Доступные команды:\n/subscribe <url> - Подписаться на источник новостей\n/unsubscribe <url> - Отписаться от источника\n/interval <minutes> - Установить интервал уведомлений\n/list - Список ваших подписок\n/news <url> - Получить последние новости из источника",
+    updateNews: "Обновление новостей",
+    news: "Новости",
+    readMore: "Читать далее",
+  }
+};
