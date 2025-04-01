@@ -1,5 +1,9 @@
 # EspressoAI
 
+> [!Warning]
+> The project is in the early development stage and should not be used in. The codebase is subject to change, and the .
+> documentation may be incomplete or outdated.
+
 An AI-powered Telegram bot that helps users subscribe to websites and receive AI-summarized news updates at customizable intervals. EspressoAI saves you precious time by automatically monitoring your favorite news sources and delivering concise summaries directly to your Telegram. Especially valuable during vacations or busy periods, it ensures you stay informed with minimal effort. Never miss important updates while avoiding information overload.
 
 ## Features
